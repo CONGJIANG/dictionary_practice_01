@@ -10,17 +10,28 @@ Write a function called dict_interdiff that takes in two dictionaries (d1 and d2
 Here are two examples:
 
 If f(a, b) returns a + b
+<br>
 d1 = {1:30, 2:20, 3:30, 5:80}
+<br>
 d2 = {1:40, 2:50, 3:60, 4:70, 6:90}
+<br>
 then dict_interdiff(d1, d2) returns ({1: 70, 2: 70, 3: 90}, {4: 70, 5: 80, 6: 90})
+<br>
+<br>
 If f(a, b) returns a > b
+<br>
 d1 = {1:30, 2:20, 3:30}
+<br>
 d2 = {1:40, 2:50, 3:60}
+<br>
 then dict_interdiff(d1, d2) returns ({1: False, 2: False, 3: False}, {})
-def dict_interdiff(d1, d2):
-    '''
-    d1, d2: dicts whose keys and values are integers
-    Returns a tuple of dictionaries according to the instructions above
-    '''
+<br>
+def dict_interdiff(d1, d2):<br>
+    '''<br>
+    d1, d2: dicts whose keys and values are integers<br>
+    Returns a tuple of dictionaries according to the instructions above<br>
+    '''<br>
     # Your code here
+<br>
+<br>
 Paste your entire function, including the definition, in the box below. The function f will be automatically added to your code, do not paste it in the box. Do not leave any debugging print statements. Note that we ask you to write a function only -- you cannot rely on any variables defined outside your function for your code to work correctly.
